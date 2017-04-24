@@ -1,0 +1,10 @@
+package com.tman.stream;
+
+public class FileEncAndDec {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

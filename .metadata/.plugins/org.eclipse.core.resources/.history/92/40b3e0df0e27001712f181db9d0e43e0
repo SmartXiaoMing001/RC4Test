@@ -1,0 +1,10 @@
+package rc4;
+
+public class FileEncryptAndDecrypt {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
