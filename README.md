@@ -3,4 +3,15 @@
 这是一个可以加解密文件的demo，包括视屏，音频，文本，图片等所有文件的加解密
 与DES相比，流密码操作简单，按位异或，并可以根据口令，生成 签名进行加密。
 ```
+## 初始测试图片如下：
 ![image](https://github.com/SmartXiaoMing001/RC4Test/raw/master/pictures/pic.jpg)
+## 加密后的图片如下，文件损坏：
+![image](https://github.com/SmartXiaoMing001/RC4Test/raw/master/pictures/文件损坏.jpg)
+## 重新解密后的图片如下：
+![image](https://github.com/SmartXiaoMing001/RC4Test/raw/master/pictures/decFile.jpg)
+
+```
+本代码中有两种加密的方式：
+第一种是DES加密，由于进行多次轮换和填充，加密的复杂度偏高，加密起来稍微耗时一些
+第二种是本人自己写的，在拷贝文件时每一位上的字节相应的流密码按位异或，解密时也一样
+```
