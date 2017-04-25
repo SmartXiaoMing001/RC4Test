@@ -3,7 +3,7 @@
 这是一个可以加解密文件的demo，包括视屏，音频，文本，图片等所有文件的加解密
 与DES相比，流密码操作简单，按位异或，并可以根据简单的口令，生成复杂的秘钥进行加密。
 This is a demo which can encrypt files & decrypt files,including video,audio,text,picture, etc.
-Compared with DES-algorithm，the stream cipher is easier than before. 
+Compared with DES-algorithm，this stream cipher is easier than before. 
 We copy a file to other path and xor its byte stream one by one with our stream cipher.
 We can also user an easier word to generate a complicated secret key to encrypt files.
 ```
