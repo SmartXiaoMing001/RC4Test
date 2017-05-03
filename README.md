@@ -22,5 +22,4 @@ We can also user an easier word to generate a complicated secret key to encrypt 
 ### 总结：
 ```
 由于本人还是在校的学生，如果走过路过的同仁觉得对你有帮助，麻烦帮小弟点个赞啦😊😊😊
-I just need a star & u could also fork my project,thanks😊😊😊
 ```
